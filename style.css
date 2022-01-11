@@ -1,0 +1,233 @@
+body{
+  margin: 0;
+  background-color: gray;
+}
+header{
+    background-color: rgb(168, 37, 37);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: Serif;
+    background-image: url(image/21.jpg);
+    
+    
+}
+nav{
+    overflow: hidden;
+    background-color: rgb(155, 25, 25);
+    
+}
+nav a{
+    float: left;
+    color: white;
+    padding:  16px 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(194, 32, 32);
+    color: white;
+}
+p {
+  color: black;
+  text-indent: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  color: rgb(241, 241, 243);
+  text-indent: 100px;
+}
+  h3 {
+    color: rgb(241, 241, 243);
+    text-indent: 50px;
+      
+}
+h5 {
+  color: rgb(241, 241, 243);
+  text-indent: 100px;
+}
+h3:hover{
+  background-color: black;
+  color: white;
+}
+h2 {
+  color: navy;
+  text-indent: 50px;
+  text-transform: uppercase;
+  border-bottom: 1px solid red;
+}
+h2:hover{
+  background-color: black;
+  color: white;
+}
+.column{
+    float: left;
+    padding: 10px;
+}
+.column.side{
+    width:99%;
+    
+}
+.column.middle{
+    width:99%; 
+    
+}
+ 
+footer{
+    clear: both;
+    background-color: rgb(54, 28, 146);
+    padding: 10px;
+    text-align: center;
+    color: rgb(189, 18, 18);
+    font-family: Serif;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100% ;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+  /* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: brown;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  image{
+    width: fit-content;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  iframe{
+    padding: 0 2px;
+    float: left;
+    width: 49%;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .hello
+  {
+  background-color:gray;
+  padding: 5px;
+  border-left:5px solid #33302c;
+  margin-bottom: 20px;
+}
+.hello p {
+  display:inline-block;
+  margin-left:10px;
+}
